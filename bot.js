@@ -5,6 +5,12 @@ const Util = require('discord.js');
  const devs = ['300482452164575242'];
 const adminprefix = "-";
 
+const Eris = require("eris");
+var Acura = new Eris("token");
+Acura.on("ready", () => {
+    console.log("tm");
+    onstart();
+});
 Acura = "487956113694654464";
 nick = "D7i";
 function onstart(){
@@ -21,7 +27,7 @@ varAcura 2 = ' ';
      }
      var v2 = v1[i];
    Acura  += v2;
-    Acura.editNickname(Acura);
+    Acura.editNickname(D7i);
  
         i++;
 
